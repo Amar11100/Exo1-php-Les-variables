@@ -6,37 +6,32 @@
 </head>
 <body>
   <?php
-
   $nom = "Amh";
-  print "$nom";
-
+  echo "Mon nom est ".$nom;
 ?>
 <hr>
 <?php
-  $nom = "Amh";
-  $prenom ="Amar";
-  $age = 30;
-  echo "$nom $prenom $age";
-  ?>
+$prenom = "Amar";
+$age = 20;
+echo "mon nom est $nom ,mon prenom est $prenom et j'ai $age ans"
 
-
-  <hr>
-  <?php
-$km = "1 ";
-echo "$km";
-$km = "3 ";
-echo  "$km";
-$km = "125 ";
-echo  "$km";
-
-  ?>
+ ?>
+    <hr>
+    <?php
+  $km = 1;
+  $km = 3 ;
+  $km = 125 ;
+  echo  $km;
+ ?>
   <hr>
   <?php
   $string ="hello";
-  $int =1;
+  $int =10;
   $float = 1.5;
   $bolean = true;
-echo "$string $int $float $bolean";
+  $quelType = gettype($int);
+  echo $quelType;
+  echo "$string $int $float $bolean";
 ?>
 <hr>
 <?php
